@@ -6,14 +6,14 @@ pipeline {
     }
     
     environment {
-        SNAP_REPO = 'vprofile-snapshot'
+        SNAP_REPO = 'Anderson-snapshot'
 		NEXUS_USER = 'admin'
 		NEXUS_PASS = 'Andikeys'
-		RELEASE_REPO = 'vprofile-release'
-		CENTRAL_REPO = 'vpro-maven-central'
-		NEXUSIP = '172.31.31.182'
+		RELEASE_REPO = 'Anderson-release'
+		CENTRAL_REPO = 'Anderson-maven-central'
+		NEXUSIP = '172.31.11.226'
 		NEXUSPORT = '8081'
-		NEXUS_GRP_REPO = 'vpro-maven-group'
+		NEXUS_GRP_REPO = 'Anderson-group'
         NEXUS_LOGIN = 'nexuslogin'
         SONARSERVER = 'sonarserver'
         SONARSCANNER = 'sonarscanner'
